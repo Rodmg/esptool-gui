@@ -1,0 +1,10 @@
+{
+    "description": "esptool-ck",
+    "name": "tool-esptool",
+    "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+    ],
+    "url": "https://github.com/igrr/esptool-ck",
+    "version": "1.408.0"
+}
