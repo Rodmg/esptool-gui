@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=esptool-gui
+Exec=esptool-gui
+Icon=esptool-gui
+Categories=Development;
