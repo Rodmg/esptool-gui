@@ -16,7 +16,8 @@ script:
   - make -j4
   - mkdir -p appdir/usr/bin ; mkdir -p appdir/usr/share/{applications,icons} ; cd appdir
   - cp ../esptool-gui usr/bin
-  - cp ../tools-linux/tool-esptool/esptool usr/bin
+  - mkdir -p usr/bin/tool-esptool 
+  - cp ../tools-linux/tool-esptool/esptool usr/bin/tool-esptool/
   - cp ../*.desktop .
   - touch esptool-gui.png # FIXME
   - cd .. 
