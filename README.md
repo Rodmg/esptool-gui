@@ -16,7 +16,7 @@ You can download prebuilt binaries from the [releases section](https://github.co
 
 1. You should have Qt5 and QtCreator developer tools installed in your system (https://www.qt.io/developers/). tested with Qt 5.6.0 and Qt Creator 4.0.0.
 2. Clone this repo and open ``esptool-gui.pro`` with Qt Creator, build from there.
-3. For deploying the application, you should include the Qt libraries in te app bundle, you can use the mac deployment tool, more info here: http://doc.qt.io/qt-5/osx-deployment.html
+3. For deploying the application, you should include the Qt libraries in the app bundle, you can use the mac deployment tool, more info here: http://doc.qt.io/qt-5/osx-deployment.html
 
 ### Windows
 
