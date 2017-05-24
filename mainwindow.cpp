@@ -22,6 +22,8 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->baudBox->addItem(QStringLiteral("38400"), QSerialPort::Baud38400);
     ui->baudBox->addItem(QStringLiteral("57600"), QSerialPort::Baud57600);
     ui->baudBox->addItem(QStringLiteral("115200"), QSerialPort::Baud115200);
+    ui->baudBox->addItem(QStringLiteral("256000"), QSerialPort::Baud256000);
+    ui->baudBox->addItem(QStringLiteral("460800"), QSerialPort::Baud460800);
     ui->baudBox->setCurrentIndex(7); // Default 115200
 
     ui->filePathText->setDisabled(true);
