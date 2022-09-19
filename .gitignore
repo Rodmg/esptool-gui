@@ -66,3 +66,11 @@ moc_*.cpp
 qrc_*.cpp
 Makefile
 *-build-*
+
+# CLI Build files
+
+.qmake.stash
+esptool-gui
+moc_predefs.h
+tool-esptool
+ui_mainwindow.h
